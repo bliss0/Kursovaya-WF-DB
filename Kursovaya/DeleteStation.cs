@@ -16,7 +16,7 @@ namespace Kursovaya
         public DeleteStation()
         {
             InitializeComponent();
-            DB db = new DB();
+            DB db = new DB();// класс БД
 
             DataTable table = new DataTable();
 
